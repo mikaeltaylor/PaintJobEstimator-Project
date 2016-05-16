@@ -1,0 +1,18 @@
+load the form
+accept input for square footage and price of paint
+if appropriate data is input
+	on clicking submit, try
+		calculate billable hours(square footage input / 115) 
+		and multiply the result by 8 and display on billable hours output label
+		calculate paint gallons(square footage input /115)
+		and round up to the next whole number then display on paint gallons output label
+		calculate total cost of paint(paint gallons * input paint price) and display on
+		paint cost output label
+		calculate labor cost(billable hours * 20) and display on labor cost output label
+		calculate total cost(labor cost + paint cost) and display on total cost output
+		label
+		
+
+if errors are caught
+	display error message
+	
